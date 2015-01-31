@@ -1,0 +1,7 @@
+<div class='meta'>
+  <p><small>
+    <%= t(".published_on", publish_date_and_time: display_date(article.published_at), by: "<span class='p-author h-card'>#{article.user.nickname}</span>") %>
+	<%= link_to_permalink(article,"","disqus_thread","comment-count","","",article.id.to_s) %>
+  </small></p>
+</div>
+

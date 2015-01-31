@@ -1,0 +1,83 @@
+body {
+	background: #f2f5fa;
+	font-family: 'Lato', sans-serif;
+}
+
+.slide-image {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+.container {
+	background: #FFF;
+}
+
+.carousel-holder {
+  margin-bottom: 30px;
+}
+
+.carousel-control,.item {
+  border-radius: 4px;
+}
+
+.caption {
+  height: 130px;
+  overflow: hidden;
+}
+
+.caption h4 {
+  white-space: nowrap;
+}
+
+.fb-like {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.page-header {
+	margin: 10px;
+	border-bottom: 0;
+}
+
+.page-header h1 a {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #7AA3CC;
+	text-decoration: none;
+}
+
+.comment-count {
+	padding: 0px 10px;
+}
+
+.subtitle {
+	color: white;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.ratings {
+  color: #d17581;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.thumbnail .caption-full {
+  padding: 9px;
+  color: #333;
+}
+
+footer {
+  margin: 50px 0;
+}
